@@ -2,6 +2,8 @@
 
 A search page on Seek may display results unrelated to the search query. This chrome plugin checks for keywords on the listing page and highlights their relevance, making it easier to determine how closely each listing matches your specified keywords.
 
+Read more: <a href="https://www.awu.me/projects/seek-co-nz-chrome-plugin">www.awu.me/projects/seek-co-nz-chrome-plugin</a>
+
 1. Clone repo.
 2. Chrome > Extensions > Manage Extensions.
 3. Load unpacked > navigate to the downloaded contents.
