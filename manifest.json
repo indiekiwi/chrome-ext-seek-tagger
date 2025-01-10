@@ -1,0 +1,23 @@
+{
+	"manifest_version": 3,
+	"name": "Seek Tagger",
+	"version": "2",
+	"description": "Seek Tagger",
+	"host_permissions": ["<all_urls>"],
+	"permissions": ["tabs", "storage", "unlimitedStorage"],
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [
+				"jquery.3.7.1.min.js",
+				"contentScript/base.js"
+			],
+			"run_at": "document_end"
+		}
+	],
+
+	"action": {
+		"default_popup": "popup.html"
+	}
+}
